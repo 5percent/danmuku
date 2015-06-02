@@ -1,0 +1,19 @@
+{
+  "name": "danmaku",
+  "description": "",
+  "version": "1.0.0",
+  "keywords": [],
+  "homepage": "",
+  "author": "zlu",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "package": {
+    "express": "*",
+    "ejs": "*",
+    "mongoskin": "*"
+  },  
+  "dependencies": {
+    "xmlhttprequest": "*"
+  }  
+}

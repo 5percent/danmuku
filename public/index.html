@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <style>
+            #panel {
+                float: left;
+                width: 1200px;
+                height: 600px;
+                background-color: #eee;
+                position: relative;
+                overflow: hidden;
+            }
+            #panel p {
+                display: inline-block;
+                position: absolute;
+                right: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="panel" class="" ></div>
+
+        <input value="" name="danmaku" type="text" />
+        <button class="send" >send</button>
+    </body>
+    <script src="/jquery.min.js"></script>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="/main.js"></script>
+</html>
